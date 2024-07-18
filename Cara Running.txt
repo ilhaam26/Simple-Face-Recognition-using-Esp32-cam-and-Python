@@ -1,0 +1,12 @@
+1. Copy folder cvzone ke Dokumen\Arduino\libraries
+2. Buka file buzzer.ino
+3. wiring buzzer ke pin GND dan D13
+4. Upload sketch ke esp32
+5. perhatikan port terhubung ke COM berapa
+6. setelah berhasil di Upload close program arduino ide
+7. buka file main.py menggunakan pycharm
+8. pada line esp = SerialObject("COM6") ubah COM sesuai yang terkoneksi di arduino IDE
+9. di pycharm klik File-settings-Project: Satria - Python Intrepreter Klik tanda + lalu search librari Opencv-python
+10. install libraries dan search librarie cvzone install libraries
+11. close jendela settings lalu running program
+12. lihat di bagian bawah kalo ada error fotoin trus kirim
